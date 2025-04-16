@@ -27,7 +27,7 @@ jobs:
       - name: Build and Push Docker Image to Docker Hub
         uses: mr-smithers-excellent/docker-build-push@v4
         with:
-          image: joeyhurtado/getting-started:latest
+          image: joeyhurtado/concepts-build-image-demo
           registry: docker.io
-          username: ${{ secrets.DOCKER_USERNAME }}
+          username: ${{ secrets.joeyhurtado}}
           password: ${{ secrets.DOCKER_PASSWORD }}
