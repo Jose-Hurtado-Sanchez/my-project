@@ -29,5 +29,5 @@ jobs:
         with:
           image: joeyhurtado/concepts-build-image-demo
           registry: docker.io
-          username: ${{ secrets.joeyhurtado}}
+          username: ${{ secrets.DOCKER_USERNAME }}
           password: ${{ secrets.DOCKER_PASSWORD }}
